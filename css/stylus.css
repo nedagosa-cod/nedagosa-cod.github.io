@@ -3,34 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    font-family: 'Saira', sans-serif;
-    font-family: 'Staatliches', cursive;
-    font-size: 62.5%;
-}
 :root{
-    --primary-color : #003049;
-    --secondary-color : #780000;
-    --primary-color2 : #669BBC;
-    --secondary-color2 : #C1121F;
-    --color-white : #FDF0D5;
+    --primary-color : #151531;
+    --secondary-color : #421a92;
+    --primary-color2 : #404be3;
+    --secondary-color2 : #c051ff;
+    --color-white : #39beff;
 
     --size-sm : 1.6rem;
     --size-md : 1.8rem;
     --size-lg : 2rem;
     --size-el : 2.5rem;
 }
+html{
+    font-family: 'Saira', sans-serif;
+    font-size: 62.5%;
+}
+
 .navbar{
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    background: var(--color-white);
+    background: var(--primary-color);
     font-size: var(--size-md);
-    justify-content: space-between;
-    padding: 0 2rem;
+    justify-content: space-around;
+    padding: 1.6rem 2rem;
 }
 .navbar__logo{
+    display: flex;
     margin: 7px 0;
+    width: 128px;
+}
+.navbar__logo img{
+    max-width: 100%;
 }
 .navbar__navContainer{
     margin: 7px 0;
@@ -46,5 +51,37 @@ html{
 }
 .navbar__navContainer a{
     text-decoration: none;
-    color: var(--secondary-color);
+    color: white;
+}
+
+/*FIN DE LA BARRA DE NAVEGACION*/
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-color);
+    height: 65rem;
+}
+
+.about__content{
+    color: white;
+    margin: 0 20px;
+    width: 300px;
+}
+.about__content h1{
+    font-size: var(--size-el);
+}
+.about__content p{
+    font-size: var(--size-sm);
+}
+.about__imgBox{
+    margin: 0 2rem;
+    padding-bottom: 10rem;
+}
+.myDescription{
+    background: var(--primary-color);
+    height: 92rem;
 }
