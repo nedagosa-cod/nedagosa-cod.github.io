@@ -20,7 +20,14 @@ html{
     font-family: 'Saira', sans-serif;
     font-size: 62.5%;
 }
-
+body{
+    background: var(--secondary-color);
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 15px 4px black;
+}
 .navbar{
     display: flex;
     flex-wrap: wrap;
@@ -64,13 +71,15 @@ html{
     justify-content: space-around;
     align-items: center;
     background-color: var(--primary-color);
-    height: 65rem;
+    height: 60rem;
+    padding: 0 4rem;
 }
 
 .about__content{
     color: white;
     margin: 0 20px;
     width: 300px;
+    padding-bottom: 4rem;
 }
 .about__content h1{
     font-size: var(--size-el);
@@ -85,4 +94,12 @@ html{
 .myDescription{
     background: var(--primary-color);
     height: 92rem;
+}
+.about__icons a{
+    color: white;
+    text-decoration: none;
+}
+.iconos{
+    font-size: 3rem;
+    margin: 2rem 1rem 2rem 0;
 }
