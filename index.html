@@ -14,14 +14,14 @@
 </head>
 <body>
     <main class="container">
-        <header class="navbar">
+        <header class="navbar" id="home">
             <picture class="navbar__logo">
                 <img src="./img/logo.svg" alt="logo">
             </picture>
             <nav class="navbar__navContainer">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Skills</a></li>
                     <li><a href="#">Contact</a></li>
@@ -48,7 +48,7 @@
                 <img src="./img/mainImg.svg" alt="mi foto">
             </picture>
         </section>
-        <section class="myDescription">
+        <section class="myDescription" id="about">
             <div class="myDescription__title titles">
                 <h1>About</h1>
             </div>
@@ -62,6 +62,24 @@
                     Minima voluptas magnam, rem sit cum dicta amet voluptatum necessitatibus harum possimus similique dignissimos nam odio pariatur dolores natus quisquam eius nemo nostrum libero. Tenetur temporibus veniam quaerat in perferendis.</p>
                 </div>
                 <a href="./CvDev.pdf" target="blank"><button type="button" class="button"><i class="fa fa-solid fa-download"></i> Descargar CV!</button></a>
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="horizontalScroll">
+                <button class="btnScroll" onclick="scrolling(-1)"><i class="fa fa-chevron-left"></i></button>
+                <button class="btnScroll" onclick="scrolling(1)"><i class="fa fa-chevron-right"></i></button>
+                <div class="horizontalScroll__cards">
+                    <div class="horizontalScroll__card">
+                        <picture>
+                            <img src="" alt="imagen portafilio">
+                        </picture>
+                        <div>
+                            <span>Nombre portafolio</span>
+                            <a href="#"><i></i></a>
+                            <a href="#"><i></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
