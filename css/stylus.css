@@ -210,3 +210,33 @@ body{
     -o-transition: 0.2s ease-in-out;
     cursor: pointer;
 }
+.portfolio{
+    background: var(--primary-color);
+    width: 100%;
+    text-align: center;
+    height: 60rem;
+}
+.cards{
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    margin-top: 12rem;
+}
+.cardBx{
+    width: 20rem;
+    height: 15rem;
+    background: var(--color-white);
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+.cardBx img{
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: -6rem;
+}
