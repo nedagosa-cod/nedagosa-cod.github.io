@@ -327,8 +327,9 @@ body{
     height: 8rem;
     padding: 1rem;
 }
-.footer__links{
-
+.footer__links a{
+    color: white;
+    margin: 0 1rem;
 }
 .footer__icons{
     font-size: 2rem;
