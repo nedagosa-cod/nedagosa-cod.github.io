@@ -136,7 +136,7 @@ body{
     text-align: center;
     font-size: var(--size-el);
     color: white;
-    padding-top: 8rem;
+    padding-top: 5rem;
 }
 .myDescription__content{
     text-align: center;
@@ -320,7 +320,7 @@ body{
     display: flex;
     justify-content: space-around;
     color: white;
-    border-top: 1px solid var(--primary-color2);
+    border-top: 1px solid black;
     background: var(--primary-color);
     width: 100%;
     text-align: center;
