@@ -316,3 +316,26 @@ body{
     width: 100%;
     object-fit: contain;
 }
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    border-top: 1px solid var(--primary-color2);
+    background: var(--primary-color);
+    width: 100%;
+    text-align: center;
+    height: 8rem;
+    padding: 1rem;
+}
+.footer__links{
+
+}
+.footer__icons{
+    font-size: 2rem;
+}
+.footer__nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 3rem;
+}
